@@ -59,7 +59,7 @@ class AstolfoCommunityApplication(
             .setStatus(OnlineStatus.DO_NOT_DISTURB)
             .setGame(Game.watching("myself boot"))
             .addEventListeners(
-                messageListener.listener,
+                messageListener,
                 statsListener,
                 musicManager.lavaLink,
                 musicManager.musicManagerListener,
